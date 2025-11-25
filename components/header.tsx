@@ -50,7 +50,7 @@ export default function Headers() {
                 <ul className="list-unstyled d-flex">
                     <li><a href="#">
                             <i>
-                                <svg x="0px" y="0px" viewBox="0 0 512 512" style={{enableBackground:"new 0 0 512 512"}}>
+                                <svg x="0px" y="0px" viewBox="0 0 512 512" enableBackground="new 0 0 512 512">
                                     <g>
                                         <path d="M467,120h-61.041C415.397,107.456,421,91.871,421,75c0-41.355-33.645-75-75-75c-24.911,0-43.28,8.925-57.809,28.087
                                 C276.036,44.119,267.148,66.503,256,94.785c-11.148-28.283-20.036-50.666-32.191-66.698C209.28,8.925,190.911,0,166,0
