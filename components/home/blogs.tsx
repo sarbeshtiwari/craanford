@@ -6,7 +6,7 @@ export default function Blogs() {
   const blogs = [
     {
       id: "1",
-      image: "https://wonder-theme-wellness.myshopify.com/cdn/shop/articles/blog-post-2.jpg?v=1737279075&width=1920",
+      image: "/images/blogs/blog-3.jpg",
       heading: "5 Tips to Relieve Joint Pain Naturally",
       date: "July 05 2024",
       time_to_read: "5 Min Read",
@@ -14,7 +14,7 @@ export default function Blogs() {
     },
     {
       id: "2",
-      image: "https://wonder-theme-wellness.myshopify.com/cdn/shop/articles/blog-post-2.jpg?v=1737279075&width=1920",
+      image: "/images/blogs/blog-2.jpg",
       heading: "Understanding the Causes of Knee Pain",
       date: "July 06 2024",
       time_to_read: "6 Min Read",
@@ -22,7 +22,7 @@ export default function Blogs() {
     },
     {
       id: "3",
-      image: "https://wonder-theme-wellness.myshopify.com/cdn/shop/articles/blog-post-2.jpg?v=1737279075&width=1920",
+      image: "/images/blogs/blog-1.jpg",
       heading: "Foods That Help Reduce Joint Inflammation",
       date: "July 07 2024",
       time_to_read: "7 Min Read",

@@ -911,7 +911,16 @@
   width: 70px;
   height: 70px;
   border-radius: 100%;
-  background: #e9f3fb;
+  background: #4e76618f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.iconCircle img{
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

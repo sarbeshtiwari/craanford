@@ -6,7 +6,7 @@ export default function Banner() {
                     <picture>
                         {/* <!-- <source media="(max-width: 500px)" srcset="./images/hero-sm.webp">
                         <source media="(max-width: 820px)" srcset="./images/hero-md.webp"> --> */}
-                        <img src="./images/hero-slider-01.webp" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
+                        <img src="/images/banner3.jpg" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
                     </picture>
                     <div className="heroText position-absolute">
                         <div className="inner d-inline-block">
@@ -17,10 +17,20 @@ export default function Banner() {
                         </div>
                     </div>
                 </div>
+                {/* <div className="carousel-item active h-100">
+                    <picture>
+                        <img src="./images/hero-slider-01.webp" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
+                    </picture>
+                    <div className="heroText position-absolute">
+                        <div className="inner d-inline-block">
+                            <h1 className="heroText-title">Loreum Dipsom by Dolor Sit</h1>
+                            <p className="heroText-desc mb-0">Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+                            <div className="readmore"><a href="#" className="button">Shop Now</a></div>
+                        </div>
+                    </div>
+                </div>
                 <div className="carousel-item  h-100">
                     <picture>
-                        {/* <!-- <source media="(max-width: 500px)" srcset="./images/hero-sm.webp">
-                        <source media="(max-width: 820px)" srcset="./images/hero-md.webp"> --> */}
                         <img src="./images/hero-slider-02.webp" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
                     </picture>
                     <div className="heroText position-absolute">
@@ -34,8 +44,6 @@ export default function Banner() {
                 </div>
                 <div className="carousel-item  h-100">
                     <picture>
-                        {/* <!-- <source media="(max-width: 500px)" srcset="./images/hero-sm.webp">
-                        <source media="(max-width: 820px)" srcset="./images/hero-md.webp"> --> */}
                         <img src="./images/hero-slider-03.webp" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
                     </picture>
                     <div className="heroText position-absolute">
@@ -46,7 +54,7 @@ export default function Banner() {
                             <div className="readmore"><a href="#" className="button">Shop Now</a></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="scroll-indicator scrollDown">
                 <div className="scroll-arrow"></div>

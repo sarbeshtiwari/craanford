@@ -3,60 +3,66 @@ export default function FeatureIcons() {
     {
       label: "100% Authentic & Ayurvedic",
       icon: (
-        <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
-          <path d="M10 2l4 6 4-6" stroke="#555" strokeWidth="2" fill="none" />
-          <circle cx="16" cy="20" r="8" stroke="#555" strokeWidth="2" fill="none" />
-        </svg>
+        // <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
+        //   <path d="M10 2l4 6 4-6" stroke="#555" strokeWidth="2" fill="none" />
+        //   <circle cx="16" cy="20" r="8" stroke="#555" strokeWidth="2" fill="none" />
+        // </svg>
+        <img src={'/images/info/medical-tool.png'} style={{width: '35%'}}/>
       ),
     },
     {
       label: "Safe & Effective",
       icon: (
-        <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
-          <circle cx="16" cy="16" r="10" stroke="#555" strokeWidth="2" fill="none" />
-          <line x1="8" y1="8" x2="24" y2="24" stroke="#555" strokeWidth="2" />
-        </svg>
+        // <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
+        //   <circle cx="16" cy="16" r="10" stroke="#555" strokeWidth="2" fill="none" />
+        //   <line x1="8" y1="8" x2="24" y2="24" stroke="#555" strokeWidth="2" />
+        // </svg>
+        <img src={'/images/info/reliability.png'} style={{width: '35%'}}/>
       ),
     },
     {
       label: "Clinically Tested",
       icon: (
-        <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
-          <circle cx="16" cy="16" r="10" stroke="#555" strokeWidth="2" fill="none" />
-          <path d="M12 12l8 8" stroke="#555" strokeWidth="2" />
-        </svg>
+        // <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
+        //   <circle cx="16" cy="16" r="10" stroke="#555" strokeWidth="2" fill="none" />
+        //   <path d="M12 12l8 8" stroke="#555" strokeWidth="2" />
+        // </svg>
+        <img src={'/images/info/analysis.png'} style={{width: '35%'}}/>
       ),
     },
     {
       label: "No Harmful Chemicals",
       icon: (
-        <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
-          <polygon
-            points="16,4 20,12 28,12 22,18 24,28 16,22 8,28 10,18 4,12 12,12"
-            stroke="#555"
-            strokeWidth="2"
-            fill="none"
-          />
-        </svg>
+        // <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
+        //   <polygon
+        //     points="16,4 20,12 28,12 22,18 24,28 16,22 8,28 10,18 4,12 12,12"
+        //     stroke="#555"
+        //     strokeWidth="2"
+        //     fill="none"
+        //   />
+        // </svg>
+        <img src={'/images/info/non-toxic.png'} style={{width: '35%'}}/>
+
       ),
     },
     {
       label: "Made in India",
       icon: (
-        <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
-          <path
-            d="M16 4c6 0 10 4 10 10s-4 10-10 10S6 20 6 14 10 4 16 4z"
-            stroke="#555"
-            strokeWidth="2"
-            fill="none"
-          />
-          <path
-            d="M12 18c4-2 6-5 6-10"
-            stroke="#555"
-            strokeWidth="2"
-            fill="none"
-          />
-        </svg>
+        // <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
+        //   <path
+        //     d="M16 4c6 0 10 4 10 10s-4 10-10 10S6 20 6 14 10 4 16 4z"
+        //     stroke="#555"
+        //     strokeWidth="2"
+        //     fill="none"
+        //   />
+        //   <path
+        //     d="M12 18c4-2 6-5 6-10"
+        //     stroke="#555"
+        //     strokeWidth="2"
+        //     fill="none"
+        //   />
+        // </svg>
+        <img src={'/images/info/india.png'} style={{width: '35%'}}/>
       ),
     },
   ];

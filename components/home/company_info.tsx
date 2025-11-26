@@ -3,22 +3,22 @@ import Image from "next/image";
 export default function InfoIconsSection() {
   const data = [
     {
-      img: "https://drorthooil.com/cdn/shop/files/free-shipping-icon-1.png",
+      img: "/images/free-shipping.png",
       title: "Free Shipping",
       subtitle: "for orders Rs. 449 & above",
     },
     {
-      img: "https://drorthooil.com/cdn/shop/files/for-cod-icon.png",
+      img: "/images/cod.png",
       title: "COD Available",
       subtitle: "For orders b/w Rs. 200 to Rs. 2000",
     },
     {
-      img: "https://drorthooil.com/cdn/shop/files/for-email-icon.png",
+      img: "/images/email.png",
       title: "Have query? Mail us",
       subtitle: "info@xyz.com",
     },
     {
-      img: "https://drorthooil.com/cdn/shop/files/for-order-online-icon.png",
+      img: "/images/viber.png",
       title: "For Order Online",
       subtitle: "+91 82956-xxxxx",
     },
