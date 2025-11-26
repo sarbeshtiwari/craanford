@@ -123,7 +123,7 @@ export default function Headers() {
                     </ul>
                 </nav>
                 {/* <div className="logo"><a href="">Craanford</a></div> */}
-                <div className="logo"><a href=""><img src={'/images/logo/logo2.png'} /></a></div>
+                <div className="logo"><a href=""><img src={'/images/logo/logo3.png'} /></a></div>
 
                 <div className="header-configure">
                     <ul className="list-unstyled">

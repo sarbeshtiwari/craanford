@@ -7,26 +7,26 @@ export default function Blogs() {
     {
       id: "1",
       image: "https://wonder-theme-wellness.myshopify.com/cdn/shop/articles/blog-post-2.jpg?v=1737279075&width=1920",
-      heading: "10 Reason why you should visit New Jersy",
+      heading: "5 Tips to Relieve Joint Pain Naturally",
       date: "July 05 2024",
-      time_to_read: "6 Min Read",
-      content: 'Life can be demanding, and feeling your best every day can sometimes feel like a challenge. But what if there was a simple way to boost your energy, mood, and...'
+      time_to_read: "5 Min Read",
+      content: "Joint pain can limit your daily activities, but there are simple natural remedies and lifestyle changes that can help reduce discomfort and improve mobility..."
     },
     {
       id: "2",
       image: "https://wonder-theme-wellness.myshopify.com/cdn/shop/articles/blog-post-2.jpg?v=1737279075&width=1920",
-      heading: "The best time to visit japan & enjoy the cherry blossoms",
+      heading: "Understanding the Causes of Knee Pain",
       date: "July 06 2024",
-      time_to_read: "7 Min Read",
-      content: 'Life can be demanding, and feeling your best every day can sometimes feel like a challenge. But what if there was a simple way to boost your energy, mood, and...'
+      time_to_read: "6 Min Read",
+      content: "Knee pain is common, especially with age or intense physical activity. Learn about the main causes and effective strategies to prevent and manage knee discomfort..."
     },
     {
       id: "3",
       image: "https://wonder-theme-wellness.myshopify.com/cdn/shop/articles/blog-post-2.jpg?v=1737279075&width=1920",
-      heading: "The 7 amazing destinations for adventure seekers",
+      heading: "Foods That Help Reduce Joint Inflammation",
       date: "July 07 2024",
-      time_to_read: "8 Min Read",
-      content: 'Life can be demanding, and feeling your best every day can sometimes feel like a challenge. But what if there was a simple way to boost your energy, mood, and...'
+      time_to_read: "7 Min Read",
+      content: "What you eat can affect your joint health. Discover the top anti-inflammatory foods that help relieve stiffness and pain naturally..."
     },
   ];
 
