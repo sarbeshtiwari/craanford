@@ -790,10 +790,10 @@ div[class^="swiper-button"].sm{
 }
 
 .swiper-middle-controls .swiper-button-next, .swiper-middle-controls .swiper-rtl .swiper-button-prev{
-  transform: translateX(50%);
+  transform: translateX(50%) !important;
 }
 .swiper-middle-controls .swiper-button-prev, .swiper-middle-controls .swiper-rtl .swiper-button-next{
-  transform: translateX(-50%);
+  transform: translateX(-50%) !important;
 }
 .swiper-bottom-controls {
     right: 10px;

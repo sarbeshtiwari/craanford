@@ -13,9 +13,9 @@ export default function SyncCarousel() {
     {
       id: 1,
       name: "Stress Relief Capsules",
-      price: "$36.00",
+      price: "₹36.00",
       productImg: "/images/products/apn.png",
-      bgColor: "#0a9449",
+      bgColor: "#4e7661",
       rightImage:
         "https://img.freepik.com/premium-photo/woman-sitting-floor-eating-bowl-fruit_1181465-21615.jpg?ga=GA1.1.1678189203.1764070992&semt=ais_hybrid&w=740&q=80",
       text: "RELAX NATURALLY, LIVE FULLY!",
@@ -23,9 +23,9 @@ export default function SyncCarousel() {
     {
       id: 2,
       name: "Sleep Gummies",
-      price: "$28.00",
+      price: "₹28.00",
       productImg: "/images/products/apn.png",
-      bgColor: "#5a2d82",
+      bgColor: "#9c78bcff",
       rightImage:
         "https://img.freepik.com/free-photo/woman-lotus-pose-park_1098-1392.jpg?ga=GA1.1.1678189203.1764070992&semt=ais_hybrid&w=740&q=80",
       text: "SLEEP BETTER, FEEL BETTER!",
@@ -33,9 +33,9 @@ export default function SyncCarousel() {
     {
       id: 3,
       name: "Energy Boost",
-      price: "$32.00",
+      price: "₹32.00",
       productImg: "/images/products/apn.png",
-      bgColor: "#fcba03",
+      bgColor: "#e86d6dff",
       rightImage:
         "https://images.pexels.com/photos/1556706/pexels-photo-1556706.jpeg",
       text: "ENERGY FOR YOUR DAY!",
@@ -51,38 +51,55 @@ export default function SyncCarousel() {
     >
       <div className="left-section">
         <Swiper
-        //   modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination]}
           spaceBetween={20}
           slidesPerView={1}
-        //   navigation
-        //   pagination={{ clickable: true }}
+          navigation
+          pagination={{
+            el: ".custom-pagination",
+            clickable: true,
+            renderBullet: (index, className) => {
+              return `<span class="${className} custom-bullet"></span>`;
+            },
+          }}
           onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         >
           {items.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="product-box">
-                <Image
-                  src={item.productImg}
-                  alt={item.name}
-                  width={300}
-                  height={300}
-                />
+                <div className="product-image-wrapper">
+                  <Image
+                    src={item.productImg}
+                    alt={item.name}
+                    width={300}
+                    height={300}
+                    className="product-img"
+                  />
+                  {/* <div className="hover-buttons">
+                    <button className="btn-buy">Buy Now</button>
+                    <button className="btn-view">View Details</button>
+                  </div> */}
+                </div>
                 <p className="title">{item.name}</p>
                 <p className="price">{item.price}</p>
-              </div>
-            </SwiperSlide>
+                <div className="button-wrapper">
+                  <button className="btn-buy">Buy Now</button>
+                  <button className="btn-view">View Details</button>
+                </div>                
+              </div>           
+            </SwiperSlide>            
           ))}
         </Swiper>
+        <div className="custom-pagination mt-4"></div>
       </div>
       <div className="seperator"></div>
-
       <div className="right-section">
         <img
           className="right-image"
           src={items[activeIndex].rightImage}
           alt="emotion"
         />
-        <h2 className="right-text">{items[activeIndex].text}</h2>
+        <h6 className="right-text">{items[activeIndex].text}</h6>
       </div>
     </section>
   );

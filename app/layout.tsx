@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/all.min.css';
-import './styles/swiper-bundle.min.css';
+// import './styles/swiper-bundle.min.css';
 // import './styles/jquery.magnify.css';
 import './styles/custom.css';
 import './styles/props.css';

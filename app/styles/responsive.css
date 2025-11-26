@@ -98,6 +98,19 @@
   .foot-About .insideBox{display: flex; flex-wrap: wrap; gap: 0 1rem; margin-bottom: 2rem;}
   .footer-logo{width: 100%;}
   .ratingWrapper{margin-bottom: 0; width: 220px;}
+
+  .hover-buttons {
+    opacity: 1 !important;
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+
+  .product-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 575.9px) {
@@ -131,6 +144,13 @@
   div[class^='swiper-button']{width: 32px; height: 32px;}
   button.close{right: 5px;}
   .readmore .button.button-sm {padding: 8px 1.5rem;}
+    .testimonial-card {
+    padding: 25px;
+  }
+
+  .testimonial-text {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 480px) {

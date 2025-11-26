@@ -1,7 +1,7 @@
 export default function FeatureIcons() {
   const features = [
     {
-      label: "Vegan",
+      label: "100% Authentic & Ayurvedic",
       icon: (
         <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
           <path d="M10 2l4 6 4-6" stroke="#555" strokeWidth="2" fill="none" />
@@ -10,7 +10,7 @@ export default function FeatureIcons() {
       ),
     },
     {
-      label: "Non-GMO",
+      label: "Safe & Effective",
       icon: (
         <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
           <circle cx="16" cy="16" r="10" stroke="#555" strokeWidth="2" fill="none" />
@@ -19,7 +19,7 @@ export default function FeatureIcons() {
       ),
     },
     {
-      label: "Gluten-Free",
+      label: "Clinically Tested",
       icon: (
         <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
           <circle cx="16" cy="16" r="10" stroke="#555" strokeWidth="2" fill="none" />
@@ -28,7 +28,7 @@ export default function FeatureIcons() {
       ),
     },
     {
-      label: "FDA Registered",
+      label: "No Harmful Chemicals",
       icon: (
         <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
           <polygon
@@ -41,7 +41,7 @@ export default function FeatureIcons() {
       ),
     },
     {
-      label: "USDA Organic",
+      label: "Made in India",
       icon: (
         <svg width="32" height="32" fill="#555" style={{width: 'auto'}}>
           <path
@@ -62,21 +62,36 @@ export default function FeatureIcons() {
   ];
 
   return (
-    <div className="py-3" style={{ background: "#E8E6FF" }}>
-      <div className="container">
-        <div className="row text-center justify-content-center">
-          {features.map((item, index) => (
-            <div className="col-6 col-md-2 mb-4" key={index}>
-              <div className="d-flex flex-column align-items-center gap-2">
-                {item.icon}
-                <span style={{ color: "#555", fontWeight: "500", fontSize: "16px" }}>
-                  {item.label}
-                </span>
-              </div>
+  <div className="py-2" style={{ background: "#E4F2FF" }}>
+    <div className="container">
+      <div className="row text-center justify-content-center align-items-center">
+        {features.map((item, index) => (
+          <div
+            className="col-6 col-md-2 mb-4 position-relative"
+            key={index}
+          >
+            <div className="d-flex flex-column align-items-center gap-2 feature-box">
+              {item.icon}
+              <span
+                style={{
+                  color: "#555",
+                  fontWeight: "500",
+                  fontSize: "12px",
+                  padding: 4,
+                }}
+              >
+                {item.label}
+              </span>
+
+              {/* Optional: add vertical separator except last item */}
+              {index !== features.length - 1 && (
+                <div className="feature-separator"></div>
+              )}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
+  </div>
   );
 }
