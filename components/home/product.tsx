@@ -18,8 +18,7 @@ export default function SupplementsSection() {
     <section className="supplements-section padding text-center">
       <small className="text-muted d-block mb-2">PLANT POWERED</small>
       <h2 className="headline">
-        DAILY <span className="pill-icon">💊</span> SUPPLEMENTS
-        <br /> WITH BENEFITS FOR YOU TO FEEL GOOD
+        Lorem ipsum dolor sit amet.
       </h2>
       <div className="container-lg mt-5 position-relative">
         <div className="swiper-button-prev"></div>
@@ -59,18 +58,18 @@ export default function SupplementsSection() {
                     className="img-fluid"
                   />
                 </div>
+                <p className="title">{product.title}</p>
+                <p className="text-center">{product.price}</p>
                 <div className="text-center add-btn-wrapper">
                   <button className="btn add-btn btn-lg">ADD TO CART</button>
                 </div>
-                <p className="title">{product.title}</p>
-                <p className="text-center">{product.price}</p>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
         <div className="custom-pagination mt-4"></div>
       </div>
-      <button className="btn view-all-btn mt-5">VIEW ALL</button>
+      <button className="btn view-all-btn mt-3">VIEW ALL</button>
     </section>
   );
 }

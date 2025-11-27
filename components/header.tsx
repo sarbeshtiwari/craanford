@@ -7,8 +7,7 @@ export default function Headers() {
                 <ul className="list-unstyled d-flex">
                     <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i className="fab fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i className="fab fa-youtube"></i></a></li>
                 </ul>
                 <ul className="list-unstyled d-flex justify-content-center">
                     <li><a href="#">
@@ -71,7 +70,6 @@ export default function Headers() {
             <div className="mainHeader">
                 <nav className="nav d-none d-md-flex">
                     <ul className="list-unstyled">
-                        <li><a href="">Home</a></li>
                         <li className="position-relative">
                             <a href="#">About Us <i className="fa fa-chevron-down"></i></a>
                             {/* <!-- <div className="dropdown drop-sm shadow-lg">
@@ -84,32 +82,32 @@ export default function Headers() {
                         <li>
                             <a href="#">Products <i className="fa fa-chevron-down"></i></a>
                             <div className="dropdown shadow-lg">
-                                <div className="form-row gap-form-row">
-                                    <div className="col-md-4 col-sm-6 navLink">
+                                <div className="row g-4">
+                                    <div className="col navLink">
                                         <a href="#" className="inner">
                                             <div className="img-fluid"><img src="./images/products/aieeze.jpg" alt="Aieeze"/></div>
                                             <span>Aieeze</span>
                                         </a>
                                     </div>
-                                    <div className="col-md-4 col-sm-6 navLink">
+                                    <div className="col navLink">
                                         <a href="#" className="inner">
                                             <div className="img-fluid"><img src="./images/products/konsteeze.jpg" alt="Konsteeze"/></div>
                                             <span>Konsteeze</span>
                                         </a>
                                     </div>
-                                    <div className="col-md-4 col-sm-6 navLink">
+                                    <div className="col navLink">
                                         <a href="#" className="inner">
                                             <div className="img-fluid"><img src="./images/products/muuveeze.jpg" alt="Muuveeze"/></div>
                                             <span>Muuveeze</span>
                                         </a>
                                     </div>
-                                    <div className="col-md-4 col-sm-6 navLink">
+                                    <div className="col navLink">
                                         <a href="#" className="inner">
                                             <div className="img-fluid"><img src="./images/products/nuvair.jpg" alt="Nuvair"/></div>
                                             <span>Nuvair</span>
                                         </a>
                                     </div>
-                                    <div className="col-md-4 col-sm-6 navLink">
+                                    <div className="col navLink">
                                         <a href="#" className="inner">
                                             <div className="img-fluid"><img src="./images/products/sleep-eeze.jpg" alt="Sleep Eeze"/></div>
                                             <span>Sleep Eeze</span>
@@ -118,8 +116,6 @@ export default function Headers() {
                                 </div>
                             </div>
                         </li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </nav>
                 {/* <div className="logo"><a href="">Craanford</a></div> */}

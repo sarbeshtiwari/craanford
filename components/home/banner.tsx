@@ -16,7 +16,7 @@ export default function Banner() {
                     <div className="heroText position-absolute">
                         <div className="inner d-inline-block">
                             {/* <p className="heroText-subtitle">ESSENSTIAL ITEMS</p> */}
-                            <h1 className="heroText-title">Loreum Dipsom by Dolor Sit</h1>
+                            <h1 className="heroText-title">By Dolor Sit</h1>
                             <p className="heroText-desc mb-0">Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
                             <div className="readmore"><a href="#" className="button">Shop Now</a></div>
                         </div>

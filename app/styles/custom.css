@@ -155,11 +155,10 @@
   position: absolute;
   left: 0;
   top: 100%;
-  width: 40rem;
+  width: 98vw;
   background-color: #fff;
   border-top: 2px solid var(--secondary-color);
   border-bottom: 4px solid var(--secondary-color);
-  border-radius: 10px;
   padding: 2rem;
   opacity: 0;
   visibility: hidden;
@@ -175,9 +174,16 @@
   pointer-events: all;
 }
 
+.navLink:not(:last-child) {
+  border-right: 1px solid rgb(0 0 0 / 15%);
+}
+
 .navLink .inner {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   gap: 10px;
   color: var(--body-color);
   font-weight: 700;
@@ -188,10 +194,7 @@
 }
 
 .navLink .inner .img-fluid {
-  flex: 0 0 50px;
-  max-width: 50px;
-  border-radius: 50%;
-  padding: 8px;
+  max-width: 150px;
   background-color: var(--secondary-light);
   transition: all 300ms ease-in-out;
 }
@@ -705,35 +708,14 @@
 .add-btn {
   width: 100%;
   border-radius: 0px;
-  background-color: #ffffff;
-  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: #ffffff;
   font-size: small;
 }
 
 .add-btn:hover {
-  background-color: var(--primary-color);
-  color: #ffffff;
-}
-
-.add-btn-wrapper {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.4s ease;
-  pointer-events: none;
-}
-
-.product-card:hover .add-btn-wrapper {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
-}
-
-@media (max-width: 768px) {
-  .add-btn-wrapper {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-  }
+  background-color: #ffffff;
+  border-color: var(--primary-color);
 }
 
 .view-all-btn {
