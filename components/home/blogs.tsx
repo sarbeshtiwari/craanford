@@ -22,7 +22,7 @@ export default function Blogs() {
     },
     {
       id: "3",
-      image: "/images/blogs/blog-1.jpg",
+      image: "/images/blogs/blog-3.jpg",
       heading: "Foods That Help Reduce Joint Inflammation",
       date: "July 07 2024",
       time_to_read: "7 Min Read",

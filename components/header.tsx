@@ -70,7 +70,9 @@ export default function Headers() {
             <div className="mainHeader">
                 <nav className="nav d-none d-md-flex">
                     <ul className="list-unstyled">
+                        <li><a href="">Home</a></li>
                         <li className="position-relative">
+                            
                             <a href="#">About Us <i className="fa fa-chevron-down"></i></a>
                             {/* <!-- <div className="dropdown drop-sm shadow-lg">
                                 <ul className="list-unstyled">

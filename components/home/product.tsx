@@ -16,7 +16,7 @@ export default function SupplementsSection() {
 
   return (
     <section className="supplements-section padding text-center">
-      <small className="text-muted d-block mb-2">PLANT POWERED</small>
+      <small className="text-muted d-block mb-2">Lorem ipsum</small>
       <h2 className="headline">
         Lorem ipsum dolor sit amet.
       </h2>

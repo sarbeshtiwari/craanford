@@ -105,7 +105,7 @@
 .header .nav > ul > li > a {
   height: 100%;
   color: var(--body-color);
-  font-size: .75rem;
+  font-size: .78rem;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -1108,6 +1108,14 @@
   }
 }
 
+.list-unstyled li {
+  font-size: 13px;
+}
+
+.home {
+  width: 10%;
+  height: auto;
+}
 /* end */
 
 .swiper-button-prev svg {

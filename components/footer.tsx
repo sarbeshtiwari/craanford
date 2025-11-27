@@ -59,8 +59,8 @@ export default function Footer() {
             <ul className="footer-links">
               <li><a href="#">Facebook</a></li>
               <li><a href="#">Instagram</a></li>
-              <li><a href="#">X</a></li>
-              <li><a href="#">Pinterest</a></li>
+              {/* <li><a href="#">X</a></li>
+              <li><a href="#">Pinterest</a></li> */}
               <li><a href="#">Youtube</a></li>
             </ul>
           </div>
