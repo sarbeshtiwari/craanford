@@ -6,7 +6,7 @@ export default function Banner() {
                     <picture>
                         {/* <!-- <source media="(max-width: 500px)" srcset="./images/hero-sm.webp">
                         <source media="(max-width: 820px)" srcset="./images/hero-md.webp"> --> */}
-                        <img src="/images/banner3.jpg" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
+                        <img src="/images/banner4.jpg" className="position-absolute top-0 start-0 h-100 object-cover" alt="Craanford"/>
                     </picture>
                     <div className="heroText position-absolute">
                         <div className="inner d-inline-block">
