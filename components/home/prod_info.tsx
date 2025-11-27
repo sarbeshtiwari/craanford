@@ -15,7 +15,7 @@ export default function SyncCarousel() {
       name: "Stress Relief Capsules",
       price: "₹36.00",
       productImg: "/images/products/apn.png",
-      bgColor: "#4e7661",
+      bgColor: "var(--primary-color)",
       rightImage:
         "https://img.freepik.com/premium-photo/woman-sitting-floor-eating-bowl-fruit_1181465-21615.jpg?ga=GA1.1.1678189203.1764070992&semt=ais_hybrid&w=740&q=80",
       text: "RELAX NATURALLY, LIVE FULLY!",

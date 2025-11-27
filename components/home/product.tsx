@@ -15,13 +15,13 @@ export default function SupplementsSection() {
   ];
 
   return (
-    <section className="supplements-section text-center">
+    <section className="supplements-section padding text-center">
       <small className="text-muted d-block mb-2">PLANT POWERED</small>
       <h2 className="headline">
         DAILY <span className="pill-icon">💊</span> SUPPLEMENTS
         <br /> WITH BENEFITS FOR YOU TO FEEL GOOD
       </h2>
-      <div className="container mt-5 position-relative">
+      <div className="container-lg mt-5 position-relative">
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
         <Swiper
@@ -63,7 +63,7 @@ export default function SupplementsSection() {
                   <button className="btn add-btn btn-lg">ADD TO CART</button>
                 </div>
                 <p className="title">{product.title}</p>
-                <p className="text-center" style={{color: 'white'}}>{product.price}</p>
+                <p className="text-center">{product.price}</p>
               </div>
             </SwiperSlide>
           ))}

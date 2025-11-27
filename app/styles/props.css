@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --primary-color: #4e7661;
+  --primary-color: #038791;
+  --secondary-color: #03c39b;
   --secondary-color-light: #edf1f0;
   --body-color: #141414;
   --lightgray: #919191;
@@ -304,16 +305,12 @@ i svg{
     color: #fff;
 }
 
-.bg-light{
-  background-color: var(--light) !important;
-}
-
 .bg-texture{
   background-image: url(/images/props/texture.png);
 }
 
 .bg-gradient{
-  background-image: radial-gradient(circle at 120% -30%, #415bc2, transparent), linear-gradient(45deg, #5d80ce, var(--secondary-color), #2c4d99, #2f4697, var(--secondary-color), var(--secondary-color), #789acc, var(--secondary-color)) !important;
+  background-image: linear-gradient(45deg, var(--primary-color), var(--secondary-color)) !important;
   color: #fff;
 }
 
@@ -507,13 +504,13 @@ i svg{
 .viewmore .button {
   text-transform: uppercase;
   color: var(--primary-color);
-  font-size: .875rem;
+  font-size: .75rem;
 }
 
 
 .viewmore .button.text-white:hover,
 .viewmore  .button:hover {
-  color: var(--primary-color) !important;
+  color: var(--body-color) !important;
 }
 
 .readmore {

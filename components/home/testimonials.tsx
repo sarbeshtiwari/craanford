@@ -31,8 +31,11 @@ const testimonials = [
 
 export default function TestimonialSlider() {
   return (
-    <section className="testimonial-section py-5 text-center">
-      <div className="container">
+    <section className="testimonial-section padding text-center">
+      <div className="container-lg">
+        <h2 className="headline text-center mb-5">
+          Client's Testimonials
+        </h2>
         <Swiper
           modules={[Pagination, Navigation]}
           loop={true}
@@ -51,6 +54,7 @@ export default function TestimonialSlider() {
           {testimonials.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="testimonial-card mx-auto p-4 p-md-5">
+                <i className="fa fa-quote-left fa-2x text-primary mb-4"></i>
                 <p className="testimonial-text mb-4">{item.text}</p>
                 <div className="testimonial-bottom d-flex flex-column align-items-center">
                   <h5 className="author-name mb-2">{item.author}</h5>

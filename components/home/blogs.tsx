@@ -31,28 +31,31 @@ export default function Blogs() {
   ];
 
   return (
-    <section className="supplements-section py-5">
-      <div className="container">
+    <section className="supplements-section padding bg-light">
+      <div className="container-lg">
+        <h2 className="headline text-center mb-5">
+          Blogs & Articles
+        </h2>
         <div className="row g-4 justify-content-center">
           {blogs.map((item) => (
             <div key={item.id} className="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
               <div className="blog-card">                
-                <div className="image-box mb-2">
+                <div className="image-box">
                   <img
                     src={item.image}
                     alt={item.heading}
                     className="img-fluid blog-img"
                   />
                 </div>
-                <div className="px-3 pb-2">
-                    <p className="text-muted small mb-2">
+                <div className="p-4">
+                    <p className="text-muted small mb-3">
                         {item.date}
                     </p>
-                    <h3 className="blog-title mb-3">{item.heading}</h3>
-                    <p className="text-muted small mb-2">
+                    <h5 className="blog-title mb-3">{item.heading}</h5>
+                    <p className="text-muted small truncate mb-2">
                         {item.content}
                     </p>
-                    <Link href='' className="read-btn">READ MORE</Link>
+                    <div className="viewmore"><Link href='' className="button">READ MORE</Link></div>
                 </div>
               </div>
             </div>
